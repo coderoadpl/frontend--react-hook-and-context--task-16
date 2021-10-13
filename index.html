@@ -21,8 +21,6 @@
     const createCounter = () => {
       let count = 0
 
-      const message = `Current value is: ${count}`
-
       const inc = () => {
         count = count + 1
       }
@@ -30,6 +28,7 @@
         return count
       }
       const logValue = () => {
+        const message = `Current value is: ${count}`
         console.log(message)
       }
 
